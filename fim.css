@@ -1,0 +1,207 @@
+/* EXPORTAÇÃO DE FONTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap');
+
+/* RESET DA PÁGINA */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+body {
+    background-color: black;
+    background-image: url(https://i.pinimg.com/originals/e6/32/83/e6328344fbc921290b4b35b8c81ad384.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 69%;
+    background-attachment: fixed;
+    height: 100vh;
+    scroll-behavior: smooth;
+}
+
+/* CSS DO CABEÇALHO */
+
+header {
+    width: 100%;
+    background-color: rgb(198, 220, 52);
+    height: 77px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cabecalho-left{
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+
+.cabecalho-left h4 {
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-size: 17px;
+}
+
+.cabecalho-left img {
+    max-width: 60px;
+    margin-left: 80px;
+    box-shadow: 2px 2px 19px rgba(0, 0, 0, 0.579);
+}
+
+.cabecalho-right li a {
+    text-decoration: none;
+}
+
+.cabecalho-right li a:hover{
+    color: #ffffff7a;
+    transition: all 750ms;
+}
+
+.cabecalho-right ul {
+    display: flex;
+    margin: 30px 120px;
+    gap: 35px;
+}
+
+.cabecalho-right ul li {
+    font-size: 20px;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    cursor: pointer;
+
+    /* CSS DOS ICONS */
+}
+
+
+.i-hover a {
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    text-transform: uppercase;
+    line-height: 20px;
+    text-decoration: none;
+}
+
+.fa-house {
+    padding-right: 8px;
+    font-size: 25px;
+    line-height: 20px;
+}
+
+.i-hover:hover{
+    color: rgba(255, 255, 255, 0.444);
+    transition: all 720ms;
+    text-decoration: none;
+}
+
+.fa-sack-dollar{
+    padding-right: 8px;
+    font-size: 25px;
+    line-height: 20px;
+}
+
+.fa-facebook {
+    font-size: 30px;
+    padding-right: 8px;
+}
+
+.cabecalho-right button {
+   border-radius: 30px;
+   border: none;
+   background-color: rgb(108, 164, 25);
+   color: white;
+   font-size: 16px;
+   font-family: 'Rubik', sans-serif;
+   font-weight: 500;
+   padding: 10px 25px;
+   margin-top: -17px;
+   cursor: pointer;
+   
+}
+
+.cabecalho-right button:hover {
+    transition: all 990ms;
+    background-color: rgb(22, 125, 22);
+}
+
+/*CSS DO CORPO KKK */
+
+.txt-meio {
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    color: white;
+    text-align: center;
+    padding-bottom: 200px;
+    margin-top: 100px;
+}
+
+.txt-meio h3 {
+    font-size: 30px;
+}
+
+.txt-meio h5 {
+    font-size: 27px;
+}
+
+.txt-meio p {
+    padding: 10px;
+    font-size: 20px;
+    
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+    gap: 40px;
+    margin-top: -140px;
+}
+
+.btn-kwai button {
+    padding: 20px 70px;
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    background-color: yellowgreen;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    margin-bottom: 200px;
+}
+
+#p-cdo {
+    background-color: yellowgreen;
+    border-radius: 15px;
+    font-size: 30px;
+    max-width: 362px;
+    height: 50px;
+    align-items: center;
+    font-family: 'Rubik', sans-serif;
+    margin: auto;
+    padding-top: 7px;
+}
+
+/* RODAPÉ DA PÁGINA puta */
+
+.fot {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    margin-top: 100px;
+    color: white;
+    text-align: center;
+    padding-top: 3px;
+    
+}
+
+.fot h6 {
+    color: rgba(255, 255, 255, 0.643);
+    margin-top: 30px;
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+}
+

@@ -1,0 +1,464 @@
+/* EXPORTAÇÃO DE FONTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap');
+
+/* RESET DA PÁGINA */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+body {
+    background-color: rgb(206, 65, 65);
+    background-image: url(https://fortbuck.github.io/assets/images/113040-1920x1080.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 69%;
+    background-attachment: fixed;
+    height: 100vh;
+    scroll-behavior: smooth;
+}
+
+/* CSS DO CABEÇALHO */
+
+header {
+    width: 100%;
+    background-color: rgb(198, 220, 52);
+    height: 77px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cabecalho-left{
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+
+.cabecalho-left h4 {
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-size: 17px;
+}
+
+.cabecalho-left img {
+    max-width: 60px;
+    margin-left: 80px;
+    box-shadow: 2px 2px 19px rgba(0, 0, 0, 0.579);
+}
+
+.cabecalho-right li a {
+    text-decoration: none;
+}
+
+.cabecalho-right li a:hover{
+    color: #ffffff7a;
+    transition: all 750ms;
+}
+
+.cabecalho-right ul {
+    display: flex;
+    margin: 30px 120px;
+    gap: 35px;
+}
+
+.cabecalho-right ul li {
+    font-size: 20px;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    cursor: pointer;
+
+    /* CSS DOS ICONS */
+}
+
+
+.i-hover a {
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    text-transform: uppercase;
+    line-height: 20px;
+    text-decoration: none;
+}
+
+.fa-house {
+    padding-right: 8px;
+    font-size: 25px;
+    line-height: 20px;
+}
+
+.i-hover:hover{
+    color: rgba(255, 255, 255, 0.444);
+    transition: all 720ms;
+    text-decoration: none;
+}
+
+.fa-sack-dollar{
+    padding-right: 8px;
+    font-size: 25px;
+    line-height: 20px;
+}
+
+.fa-facebook {
+    font-size: 30px;
+    padding-right: 8px;
+}
+
+.cabecalho-right button {
+   border-radius: 30px;
+   border: none;
+   background-color: rgb(108, 164, 25);
+   color: white;
+   font-size: 16px;
+   font-family: 'Rubik', sans-serif;
+   font-weight: 500;
+   padding: 10px 25px;
+   margin-top: -17px;
+   cursor: pointer;
+   
+}
+
+.cabecalho-right button:hover {
+    transition: all 990ms;
+    background-color: rgb(22, 125, 22);
+}
+
+/* CSS DO CORPO DA PAGINAAA */
+
+
+.content-meio {
+    text-align: center;
+    align-items: center;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-meio img {
+    position: absolute;
+    max-width: 220px;
+    margin-top: 120px;
+}
+
+.content-meio h1 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 68px;
+    color: white;
+}
+
+.content-meio h3 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    margin-top: 30px;
+    letter-spacing: 1px;
+}
+
+#vb {
+    color: green;
+    cursor: pointer;
+}
+
+#vb:hover {
+    color: rgb(9, 82, 9);
+    transition: all 700ms;
+}
+
+.box-gerador {
+    max-width: 800px;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.453);
+    margin: auto;
+    margin-top: 200px;
+    margin-bottom: 100px;
+    border-radius: 29px;
+    box-shadow: 2px 2px 39px rgb(190, 182, 24);
+}
+
+.box-gerador h2 {
+    color: rgba(255, 255, 0, 0.821);
+    font-family: 'Rubik', sans-serif;
+    margin-top: 22px;
+    font-size: 16px;
+}
+
+#spn2 {
+    color: rgb(61, 209, 61);
+    font-size: 18px;
+    padding-left: 5px;
+}
+
+.box-gerador img {
+    position: absolute;
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    margin-left: 260px;
+    margin-top: -120px;
+}
+
+.box-gerador form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-top: 130px;
+}
+
+.box-gerador input {
+    width: 600px;
+    padding: 30px;
+    border-radius: 12px;
+    border: none;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-family: 'Rubik', sans-serif;
+    transform: skewX(6deg);
+    outline: none;
+    
+}
+
+.input-container img {
+    position: absolute;
+    max-width: 45px;
+    margin-top: 23px;
+    margin-left: -60px;
+}
+
+.input-container2 img {
+    max-width: 45px;
+    position: absolute;
+    margin-top: 23px;
+    margin-left: -60px;
+}
+
+.input-container3 img {
+    position: absolute;
+    max-width: 45px;
+    margin-top: 23px;
+    margin-left: -60px;
+}
+
+.button-gerar {
+    text-align: center;
+}
+
+.button-gerar button {
+    padding: 20px 130px;
+    border-radius: 29px;
+    background-color: green;
+    font-size: 26px;
+    font-weight: bold;
+    border: none;
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    cursor: pointer;
+    margin-top: -30px;
+    box-shadow: 2px 2px 29px green;
+    letter-spacing: 1px;
+}
+
+.button-gerar img {
+    max-width: 120px;
+    position: absolute;
+    margin-left: -225px;
+    margin-top: 150px;
+}
+
+.button-gerar button:hover{
+    transition: all 0.9s;
+    background-color: rgb(5, 101, 69);
+    padding: 21px 131px;
+}
+
+/* area de cards ( NOTICIAS ) */
+
+.txt h2 {
+    text-align: center;
+    margin-top: 300px;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-size: 70px;
+    letter-spacing: 6px;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 130px;
+    
+}
+
+.card1 {
+    max-width: 400px;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.317);
+    border-radius: 8px;
+}
+
+.card1 img {
+    max-width: 400px;
+    height: 50%;
+    border-radius: 8px;
+}
+
+.card2 {
+    max-width: 400px;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.317);
+    border-radius: 8px;
+}
+
+.card2 img {
+    max-width: 400px;
+    height: 50%;
+    border-radius: 8px;
+}
+
+
+.card3 {
+    max-width: 400px;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.317);
+    border-radius: 8px;
+}
+
+.card3 img {
+    max-width: 400px;
+    height: 50%;
+    border-radius: 8px;
+}
+
+.div-txt-content1 {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding-left: 30px;
+}
+
+.div-txt-content1 h4 {
+   font-family: 'Rubik', sans-serif;
+   color: white;
+   padding-top: 20px;
+   font-size: 20px;
+}
+
+.div-txt-content1 p {
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    line-height: 20px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    
+ }
+
+ /* RODAPÉ DA PÁGINA puta */
+
+.fot {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    margin-top: 100px;
+    color: white;
+    text-align: center;
+    padding-top: 3px;
+    margin-top: 320px;
+}
+
+.fot h6 {
+    color: rgba(255, 255, 255, 0.643);
+    margin-top: 30px;
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+}
+
+@media screen and (max-width:480px){
+
+    header {
+        display: none;
+    }
+
+    .i-hover {
+        display: none;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card1 {
+        width: 80%;
+        
+    }
+
+    .card1 img {
+        max-width: 100%;
+    }
+
+    .card2 img {
+        max-width: 100%;
+    }
+
+    .card3 img {
+        max-width: 100%;
+    }
+
+    .card2 {
+        width: 80%;
+    }
+
+    .card3 {
+        width: 80%;
+    }
+
+    .div-txt-content1  {
+        height: 90%;
+    }
+
+    .txt h2 {
+        font-size: 30px;
+    }
+    
+    .button-gerar button {
+        width: 60%;
+        text-align: center;
+        align-items: center;
+    }
+
+    .box-gerador {
+        width: 90%;
+    }
+
+    .input-container input {
+        width: 100%;
+    }
+
+    .input-container2 input {
+        width: 100%;
+    }
+
+    .input-container3 input {
+        width: 100%;
+    }
+   .logooo {
+    display: none;
+    }
+
+    .div-txt-content1 p {
+        width: 90%;
+    }
+
+    .div-txt-content1 h4 {
+        width: 90%;
+    }
+
+    .button-gerar img {
+        position: absolute;
+        margin-left: -200px;
+    }
+}
